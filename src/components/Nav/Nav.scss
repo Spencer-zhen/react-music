@@ -1,0 +1,12 @@
+@import '../../style/variables.scss';
+@import '../../style/tools/_flex.scss';
+
+.nav {
+  @extend %flex-row;
+  @include justify-content(space-around);
+  li {
+    height: 44px;
+    line-height: 44px;
+    padding: 0 4%;
+  }
+}
